@@ -1,0 +1,70 @@
+body {
+  background: #000;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  background-color: rgb(34, 36, 42);
+  height: 125px;
+  width: 90px;
+  border: 10px solid white;
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+}
+.header {
+  color: white;
+}
+
+.display {
+  background-color: hsl(203, 79%, 13%);
+  border: 5px solid hsl(31, 19%, 24%);
+  border-radius: 7px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  height: 48px;
+  width: 75px;
+  font-size: 20px;
+  text-align: center;
+  /* padding: 12px; */
+  color: white;
+}
+.display:hover {
+  transform: scale(1.05); /* slightly grows on hover */
+  background-color: darkblue;
+}
+button {
+  height: 38px;
+  width: 38px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background: #a9d6e5;
+  color: #111;
+  cursor: pointer;
+  background-color: rgb(64, 64, 248);
+  margin-top: 10px;
+}
+button:active {
+  filter: brightness(0.9);
+}
+/* .incBtn {
+  background-color: rgb(29, 29, 252);
+  row-gap: 20px;
+} */
+.incBtn:hover {
+  background-color: rgb(114, 114, 245);
+  transform: scale(1.05);
+}
+.buttons {
+  background-color: #484242;
+}
+.decBtn:hover {
+  background-color: rgb(114, 114, 245);
+  transform: scale(1.05);
+}
